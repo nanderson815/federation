@@ -16,6 +16,7 @@ import { PgAttribute, QueryBuilder } from "graphile-build-pg";
  *
  * https://www.apollographql.com/docs/apollo-server/federation/federation-spec/#federation-schema-specification
  */
+// @ts-expect-error: Let's ignore a single compiler error like this unreachable code
 const SchemaExtensionPlugin = makeExtendSchemaPlugin(build => {
   const {
     graphql: { GraphQLScalarType, getNullableType },
