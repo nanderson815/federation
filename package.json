@@ -7,8 +7,7 @@
     "build": "tsc",
     "lint": "eslint 'src/**/*.ts'",
     "watch": "tsc --watch",
-    "test": "./scripts/test",
-    "prepare": "npm run build"
+    "test": "./scripts/test"
   },
   "repository": {
     "type": "git",
